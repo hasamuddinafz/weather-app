@@ -1,0 +1,130 @@
+body{
+    background-image: url('./img/back.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.logo{
+    width: 40px;
+}
+/* Custom input field styles */
+.choose-location {
+    background: #1C1C27 !important;
+    border: 0 !important;
+    outline: none !important;
+    color: #ABABC4 !important; /* Ensure text color is set */
+    caret-color: #ABABC4 !important; /* Ensure caret color matches text color */
+  }
+  
+  /* Placeholder color */
+  .choose-location::placeholder {
+    color: #7F7F98;
+  }
+  
+  /* Remove border and outline on focus */
+  .choose-location:focus {
+    border: 0 !important;
+    outline: none !important;
+    box-shadow: none; /* Removes the default blue shadow on focus */
+  }
+  
+.img-status{
+    width: 60px;
+}
+.nunito-extra-light {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+.nunito-regular {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.nunito-medium {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.nunito-semi-bold {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.nunito-bold {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.nunito-extra-bold {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.blue-light{
+    color: #8FB2F5;
+}
+.gray-900{
+    color: #13131A;
+}
+.gray-800{
+    color: #16161F;
+}
+.gray-700{
+    color: #1C1C27;
+}
+.gray-500{
+    color: #3B3B54;
+}
+.gray-400{
+    color: #7F7F98;
+}
+.gray-300{
+    color: #ABABC4;
+}
+.gray-200{
+    color: #BFBFD4;
+}
+.gray-100{
+    color: #FAFAFA;
+}
+
+.bg-blue-light{
+    background-color: #8FB2F5;
+}
+.bg-gray-900{
+    background-color: #13131A;
+}
+.bg-gray-800{
+    background-color: #16161F;
+}
+.bg-gray-700{
+    background-color: #1C1C27;
+}
+.bg-gray-500{
+    background-color: #3B3B54;
+}
+.bg-gray-400{
+    background-color: #7F7F98;
+}
+.bg-gray-300{
+    background-color: #ABABC4;
+}
+.bg-gray-200{
+    background-color: #BFBFD4;
+}
+.bg-gray-100{
+    background-color: #FAFAFA;
+}
