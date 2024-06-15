@@ -202,7 +202,7 @@ const WeatherDetail = () => {
 
           <div className="daily-weather bg-gray-700 my-2 rounded-4 p-3 w-100">
             <div className="daily-weather-content">
-              <div className="d-flex flex-wrap align-items-center justify-content-between">
+              <div className="d-flex flex-nowrap align-items-center justify-content-between">
                 {dailyForecasts.map((day, index) => (
                   <div className="daily-content text-center nunito-bold mx-1" key={index}>
                     <div className="weekend">
