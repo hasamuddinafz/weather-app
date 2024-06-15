@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# iWeather App
+### https://weather-app-hasamuddin.vercel.app/
+Welcome to the **iWeather App**! This project is designed to provide real-time weather information using a modern, responsive user interface. Built with React and Bootstrap, the app adjusts seamlessly across different devices. Additionally, it dynamically changes background images based on the current weather conditions and time of day.
+## Figma UI Design
+https://www.figma.com/file/CmZupOVTB1WkYfLwElyzLL/iWeather?type=design&node-id=3%3A376&mode=design&t=Fccntqhigcu1L8Xv-1
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
 
-## Available Scripts
+- **Responsive UI**: Designed with React and Bootstrap for seamless performance on various devices.
+- **Dynamic Background**: Changes based on weather description and time of day (day/night).
+- **Weather Data**: Fetches current weather data and a 5-day forecast using the OpenWeather API.
+- **Phosphor Icons**: Utilizes Phosphor React Icons for intuitive and visually appealing weather icons.
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/hasamuddinafz/iweather-app.git
+    cd iweather-app
+    ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Install Dependencies**:
+    ```bash
+    npm install
+    ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **Run the Application**:
+    ```bash
+    npm start
+    ```
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Once the app is running, simply enter a city name to get the current weather details and a 5-day forecast. The background image will change to reflect the weather conditions (e.g., sunny, rainy, cloudy) and will also adjust based on whether it's day or night.
 
-### `npm run build`
+## UI Design
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The user interface is designed with Figma, ensuring a clean and modern look. For icons, Phosphor React Icons are used, providing a consistent and appealing visual language across the app.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## API
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+We use the free version of the OpenWeather API to fetch all weather data. This includes:
 
-### `npm run eject`
+- Current weather conditions
+- 5-day weather forecast
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Ensure to monitor the API usage limits as per the free tier restrictions.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Contributions are welcome! If you have suggestions for improvements or want to report bugs, feel free to create an issue or submit a pull request.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Create a new Pull Request.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
